@@ -6,7 +6,11 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ['eslint:recommended', "plugin:react/recommended"],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'eslint-config-prettier',
+  ],
   rules: {
     strict: ['error', 'never'],
   },
@@ -14,4 +18,4 @@ module.exports = {
     browser: true,
     node: true,
   },
-}
+};

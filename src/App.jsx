@@ -6,6 +6,6 @@ const App = () => {
       <h1>Hello World caralho!!!</h1>
     </div>
   );
-}
+};
 
 export default App;
